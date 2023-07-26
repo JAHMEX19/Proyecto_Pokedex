@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded",
 	function () {
-		var generation = [
+		const generation = [
 			"Gen-01",
 			"Gen-02",
 			"Gen-03",
@@ -9,16 +9,14 @@ document.addEventListener("DOMContentLoaded",
 			"Gen-06",
 			"Gen-07",
 		];
-        var filter = document.getElementById("filters"); //get by Id
-        var gen = ""; 
+        let filter = document.getElementById("filters"); //get by Id
+        let gen = ""; 
         for(let i=0; i < generation.length; i++){
 
-            console.log(generation[i]);
+            //Indexamos agregando HTML con  listado de array `${}` (alt +96)
 
-            //Indexamos agregando mi clase HTML con  listado de array `` (alt +96)
-
-            gen += `{<input class="radio-gens" type="radio" id="radio" name="generation" checked>
-            <label for="for" class="label-gen"> Name </label>}`
+            gen += `<input class="radio-gens" type="radio" id=${generation[i]} value=${i+1} name="generation" checked>
+            <label for=${generation[i]} class="label-gen"> ${generation[i]} </label>`
 
         }
 

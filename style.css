@@ -24,12 +24,12 @@ header{
     align-items: center;
     margin: 15px 0;
 }
-#icon{
+ header #icon{
 
     width: 50px;
   }
 
-.title{
+header .title{
 
     color: #F0DB4F;
   
@@ -39,6 +39,16 @@ header{
 .filters{
 display: flex;
 justify-content: center;
+width: 100%;
 
+flex-wrap: wrap;
+
+
+}
+
+/*Indexamos seleccionamos los hijos*/
+.filters *{
+
+margin: .2em .5em;
 
 }
