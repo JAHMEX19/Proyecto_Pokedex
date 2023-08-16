@@ -11,3 +11,7 @@ Joel Alejandro
 HTML CSS JavaScript
 
 Link: https://pokedex-bluecircuit.netlify.app/
+
+## Screenshots
+
+<img src="https://github.com/JAHMEX19/Proyecto_Pokedex/blob/main/pokedex.png" width="500px"  >
