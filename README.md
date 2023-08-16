@@ -9,3 +9,5 @@ Joel Alejandro
 
 🛠 Skills
 HTML CSS JavaScript
+
+Link: https://pokedex-bluecircuit.netlify.app/
